@@ -1,7 +1,7 @@
 {
-  "name": "lottie-nuxt",
+  "name": "tachineputa",
   "version": "1.0.0",
-  "description": "Nuxt starter for CodeSandBox",
+  "description": "立佞武多公式サイト",
   "author": "Nuxt.js Team",
   "private": true,
   "scripts": {
@@ -12,9 +12,12 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
+    "@nuxt/content": "^2.0.1",
     "@nuxt/http": "^0.1.0",
-    "nuxt": "^2.5.1",
+    "nuxt": "2.5.18",
     "reqlim": "^0.0.0",
+    "sass": "^1.53.0",
+    "sass-loader": "10",
     "vue-lottie": "0.2.1"
   },
   "keywords": []

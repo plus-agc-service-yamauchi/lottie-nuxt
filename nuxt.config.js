@@ -10,15 +10,22 @@ export default {
    ** Doc: https://vue-meta.nuxtjs.org/api/#metainfo-properties
    */
   head: {
-    title: "Nuxt.js starter for CSB",
+    title: "立佞武多公式サイト",
+    htmlAttrs: {
+      lang: 'ja',
+      prefix: 'og: http://ogp.me/ns#'
+    },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      {
-        hid: "description",
-        name: "description",
-        content: "Official Nuxt.js starter for CodeSandBox"
-      }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'サイト名' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'サイトのURL' },
+      { hid: 'og:title', property: 'og:title', content: 'サイトタイトル' },
+      { hid: 'og:description', property: 'og:description', content: '共通ディスクリプション' },
+      { hid: 'og:image', property: 'og:image', content: '画像のURL' },
+      { name: 'twitter:card', content: 'summary' }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
@@ -27,7 +34,9 @@ export default {
    ** Global CSS
    ** Doc: https://nuxtjs.org/api/configuration-css
    */
-  css: [],
+  css: [
+    '@/assets/scss/style.scss'
+  ],
 
   /*
    ** Plugins to load before mounting the App
@@ -42,8 +51,6 @@ export default {
   modules: [
     // Doc: https://http.nuxtjs.org
     "@nuxt/http",
-    // TODO: Remove it if you want to eject from codeSandbox
-    "./codesandbox"
   ],
 
   /*
@@ -61,6 +68,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
-  }
+    extend(config, ctx) {},
+  },
 };
