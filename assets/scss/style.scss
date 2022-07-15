@@ -11,7 +11,7 @@ Style
 
 .-bgImage,
 .l-spacer.-bgHarfLightGrey:after {
-    background-image: url(../img/section-bg.png);
+    background-image: url(@/static/img/section-bg.png);
     background-size: cover;
 }
 
@@ -64,17 +64,17 @@ Style
 }
 
 .parallax.bg-01 {
-    background-image: url(../img/news-bg.jpg);
+    background-image: url(@/static/img/news-bg.jpg);
 }
 
 @media (min-width: 992px) {
     .parallax.bg-01 {
-        background-image: url(../img/news-bg@2x.jpg);
+        background-image: url(@/static/img/news-bg@2x.jpg);
     }
 }
 
 .parallax.hero {
-    background-image: url(../img/hero-bg.png);
+    background-image: url(@/static/img/hero-bg.png);
     background-repeat: no-repeat;
     background-position: center top;
 }
@@ -307,7 +307,7 @@ Style
 }
 
 .p-footer {
-    background-image: url(../img/footer-bg-brown.png);
+    background-image: url(@/static/img/footer-bg-brown.png);
     color: #fafafa;
     padding: 3.5rem 0;
 }
@@ -358,7 +358,7 @@ Style
 }
 
 .bg-pattern {
-    background-image: url(../img/img_bg-pattern.jpg);
+    background-image: url(@/static/img/img_bg-pattern.jpg);
 }
 
 .countDown-day {
@@ -514,7 +514,7 @@ ol {
 }
 
 .bg-privacy {
-    background-image: url(../img/bg-shibaraku-mono.svg);
+    background-image: url(@/static/img/bg-shibaraku-mono.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 1200px 200px;

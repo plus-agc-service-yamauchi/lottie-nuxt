@@ -16,7 +16,7 @@
           <div class="flex__item" data-grid="sp12 lap12" data-align="middle">
             <div class="p-hero__body">
               <p class="p-hero__title hero-title l-spacer -center"><img class="wow animate__animated animate__fadeIn"
-                  src="@/assets/img/logo.png" data-wow-delay="4s" alt=""></p>
+                  src="@/static/img/logo.png" data-wow-delay="4s" alt=""></p>
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@
     <section class="l-spacer -bgLightGrey -bgImage box-shadow" id="about">
       <div class="l-spacer -primary text-white text-shadowBlur">
         <div class="l-container"><img class="wow animate__animated animate__fadeInRight animate-right"
-            src="@/assets/img/animate_1.png" alt="">
+            src="@/static/img/animate_1.png" alt="">
           <h2 class="c-heading -primary -center roll font-hero m-0" lang="en" data-type="standUpIn"
             data-duration="fast">
             <span>3</span><span>年</span><span>ぶ</span><span>り</span><span>に</span><span>開</span><span>催</span><span>決</span><span>定</span><span>!</span>
@@ -62,19 +62,21 @@
                 href="https://www.pref.aomori.lg.jp/soshiki/kkokusai/kanko/files/maturi11.pdf"
                 target="_blank">ガイドラインはこちら</a></p>
           </div>
-          <img class="wow animate__animated animate__fadeInLeft animate-left" src="@/assets/img/animate_2.png" alt="">
+          <img class="wow animate__animated animate__fadeInLeft animate-left" src="@/static/img/animate_2.png" alt="">
         </div>
       </div>
     </section>
     <section class="l-spacer" id="news">
       <div class="parallax bg-01" id="parallax-01">
         <div class="mask"><img class="wow animate__animated animate__fadeInRight parallax-animate-right"
-            src="@/assets/img/yattemare.svg" alt="">
+            src="@/static/img/yattemare.svg" alt="">
           <div class="flex">
             <div class="flex__item l-spacer -center" data-grid="sp12">
               <h3 class="c-heading -primary -center roll" lang="en" data-type="standUpIn" data-duration="fast">
                 <span>お知らせ</span>
               </h3>
+              <!-- blog -->
+              <!-- <nuxt-link class="btn" to="/posts/">Look at my posts ...</nuxt-link> -->
               <div class="news-wrapper">
                 <div class="news-item">
                   <div class="date">2022.05.24</div>
@@ -102,7 +104,7 @@
             </div>
           </div>
           <img class="wow animate__animated animate__fadeInLeft parallax-animate-left"
-            src="@/assets/img/yattemare_2.svg" alt="">
+            src="@/static/img/yattemare_2.svg" alt="">
         </div>
       </div>
     </section>
@@ -203,16 +205,16 @@
             <figure class="p-hero__figure">
               <ul class="flex">
                 <li class="flex__item" data-grid="sp4"><span class="p-hero__imageWrap"><span class="p-hero__color"><img
-                        class="p-hero__image" src="@/assets/img/shibaraku-left.webp"
-                        srcset="@/assets/img/shibaraku-left.webp, @/assets/img/shibaraku-left@2x.webp 2x" alt=""
+                        class="p-hero__image" src="@/static/img/shibaraku-left.webp"
+                        srcset="@/static/img/shibaraku-left.webp, @/static/img/shibaraku-left@2x.webp 2x" alt=""
                         decoding="async"></span></span></li>
                 <li class="flex__item" data-grid="sp4"><span class="p-hero__imageWrap"><span class="p-hero__color"><img
-                        class="p-hero__image" src="@/assets/img/shibaraku-center.webp"
-                        srcset="@/assets/img/shibaraku-center.webp, @/assets/img/shibaraku-center@2x.webp 2x" alt=""
+                        class="p-hero__image" src="@/static/img/shibaraku-center.webp"
+                        srcset="@/static/img/shibaraku-center.webp, @/static/img/shibaraku-center@2x.webp 2x" alt=""
                         decoding="async"></span></span></li>
                 <li class="flex__item" data-grid="sp4"><span class="p-hero__imageWrap"><span class="p-hero__color"><img
-                        class="p-hero__image" src="@/assets/img/shibaraku-right.webp"
-                        srcset="@/assets/img/shibaraku-right.webp, @/assets/img/shibaraku-right@2x.webp 2x" alt=""
+                        class="p-hero__image" src="@/static/img/shibaraku-right.webp"
+                        srcset="@/static/img/shibaraku-right.webp, @/static/img/shibaraku-right@2x.webp 2x" alt=""
                         decoding="async"></span></span></li>
               </ul>
             </figure>
@@ -281,16 +283,16 @@
             <figure class="p-hero__figure">
               <ul class="flex">
                 <li class="flex__item" data-grid="sp4"><span class="p-hero__imageWrap"><span class="p-hero__color"><img
-                        class="p-hero__image" src="@/assets/img/kintaro-left.webp"
-                        srcset="@/assets/img/kintaro-left.webp, @/assets/img/kintaro-left@2x.webp 2x" alt=""
+                        class="p-hero__image" src="@/static/img/kintaro-left.webp"
+                        srcset="@/static/img/kintaro-left.webp, @/static/img/kintaro-left@2x.webp 2x" alt=""
                         decoding="async"></span></span></li>
                 <li class="flex__item" data-grid="sp4"><span class="p-hero__imageWrap"><span class="p-hero__color"><img
-                        class="p-hero__image" src="@/assets/img/kintaro-center.webp"
-                        srcset="@/assets/img/kintaro-center.webp, @/assets/img/kintaro-center@2x.webp 2x" alt=""
+                        class="p-hero__image" src="@/static/img/kintaro-center.webp"
+                        srcset="@/static/img/kintaro-center.webp, @/static/img/kintaro-center@2x.webp 2x" alt=""
                         decoding="async"></span></span></li>
                 <li class="flex__item" data-grid="sp4"><span class="p-hero__imageWrap"><span class="p-hero__color"><img
-                        class="p-hero__image" src="@/assets/img/kintaro-right.webp"
-                        srcset="@/assets/img/kintaro-right.webp, @/assets/img/kintaro-right@2x.webp 2x" alt=""
+                        class="p-hero__image" src="@/static/img/kintaro-right.webp"
+                        srcset="@/static/img/kintaro-right.webp, @/static/img/kintaro-right@2x.webp 2x" alt=""
                         decoding="async"></span></span></li>
               </ul>
             </figure>
@@ -312,80 +314,80 @@
               <ul class="flex" data-gutter="normal">
                 <li class="flex__item roll" data-grid="sp6" data-type="slideUpIn">
                   <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                      src="@/assets/img/img-tachineputa01@2x.webp"
-                      srcset="@/assets/img/img-tachineputa01@2x.webp, @/assets/img/img-tachineputa01@2x.webp 2x" alt=""
+                      src="@/static/img/img-tachineputa01@2x.webp"
+                      srcset="@/static/img/img-tachineputa01@2x.webp, @/static/img/img-tachineputa01@2x.webp 2x" alt=""
                       decoding="async"></figure>
                 </li>
                 <li class="flex__item roll" data-grid="sp6" data-type="slideUpIn">
                   <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                      src="@/assets/img/img-tachineputa02@2x.webp"
-                      srcset="@/assets/img/img-tachineputa02@2x.webp, @/assets/img/img-tachineputa02@2x.webp 2x" alt=""
+                      src="@/static/img/img-tachineputa02@2x.webp"
+                      srcset="@/static/img/img-tachineputa02@2x.webp, @/static/img/img-tachineputa02@2x.webp 2x" alt=""
                       decoding="async"></figure>
                 </li>
                 <li class="flex__item roll" data-grid="sp6 tab3" data-type="slideUpIn">
                   <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                      src="@/assets/img/img-tachineputa03@2x.webp"
-                      srcset="@/assets/img/img-tachineputa03@2x.webp, @/assets/img/img-tachineputa03@2x.webp 2x" alt=""
+                      src="@/static/img/img-tachineputa03@2x.webp"
+                      srcset="@/static/img/img-tachineputa03@2x.webp, @/static/img/img-tachineputa03@2x.webp 2x" alt=""
                       decoding="async"></figure>
                 </li>
                 <li class="flex__item roll" data-grid="sp6 tab3" data-type="slideUpIn">
                   <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                      src="@/assets/img/img-tachineputa04@2x.webp"
-                      srcset="@/assets/img/img-tachineputa04@2x.webp, @/assets/img/img-tachineputa04@2x.webp 2x" alt=""
+                      src="@/static/img/img-tachineputa04@2x.webp"
+                      srcset="@/static/img/img-tachineputa04@2x.webp, @/static/img/img-tachineputa04@2x.webp 2x" alt=""
                       decoding="async"></figure>
                 </li>
                 <li class="flex__item roll" data-grid="sp6 tab3" data-type="slideUpIn">
                   <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                      src="@/assets/img/img-tachineputa05@2x.webp"
-                      srcset="@/assets/img/img-tachineputa05@2x.webp, @/assets/img/img-tachineputa05@2x.webp 2x" alt=""
+                      src="@/static/img/img-tachineputa05@2x.webp"
+                      srcset="@/static/img/img-tachineputa05@2x.webp, @/static/img/img-tachineputa05@2x.webp 2x" alt=""
                       decoding="async"></figure>
                 </li>
                 <li class="flex__item roll" data-grid="sp6 tab3" data-type="slideUpIn">
                   <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                      src="@/assets/img/img-tachineputa06@2x.webp"
-                      srcset="@/assets/img/img-tachineputa06@2x.webp, @/assets/img/img-tachineputa06@2x.webp 2x" alt=""
+                      src="@/static/img/img-tachineputa06@2x.webp"
+                      srcset="@/static/img/img-tachineputa06@2x.webp, @/static/img/img-tachineputa06@2x.webp 2x" alt=""
                       decoding="async"></figure>
                 </li>
                 <li class="flex__item roll" data-grid="sp12 tab8" data-type="slideUpIn">
                   <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                      src="@/assets/img/img-tachineputa07@2x.webp"
-                      srcset="@/assets/img/img-tachineputa07@2x.webp, @/assets/img/img-tachineputa07@2x.webp 2x" alt=""
+                      src="@/static/img/img-tachineputa07@2x.webp"
+                      srcset="@/static/img/img-tachineputa07@2x.webp, @/static/img/img-tachineputa07@2x.webp 2x" alt=""
                       decoding="async"></figure>
                 </li>
                 <li class="flex__item roll" data-grid="sp6 tab4" data-type="slideUpIn">
                   <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                      src="@/assets/img/img-tachineputa08@2x.webp"
-                      srcset="@/assets/img/img-tachineputa08@2x.webp, @/assets/img/img-tachineputa08@2x.webp 2x" alt=""
+                      src="@/static/img/img-tachineputa08@2x.webp"
+                      srcset="@/static/img/img-tachineputa08@2x.webp, @/static/img/img-tachineputa08@2x.webp 2x" alt=""
                       decoding="async"></figure>
                 </li>
                 <li class="flex__item roll" data-grid="sp6 tab4" data-type="slideUpIn">
                   <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                      src="@/assets/img/img-tachineputa09@2x.webp"
-                      srcset="@/assets/img/img-tachineputa09@2x.webp, @/assets/img/img-tachineputa09@2x.webp 2x" alt=""
+                      src="@/static/img/img-tachineputa09@2x.webp"
+                      srcset="@/static/img/img-tachineputa09@2x.webp, @/static/img/img-tachineputa09@2x.webp 2x" alt=""
                       decoding="async"></figure>
                 </li>
                 <li class="flex__item roll" data-grid="sp12 tab8" data-type="slideUpIn">
                   <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                      src="@/assets/img/img-tachineputa10@2x.webp"
-                      srcset="@/assets/img/img-tachineputa10@2x.webp, @/assets/img/img-tachineputa10@2x.webp 2x" alt=""
+                      src="@/static/img/img-tachineputa10@2x.webp"
+                      srcset="@/static/img/img-tachineputa10@2x.webp, @/static/img/img-tachineputa10@2x.webp 2x" alt=""
                       decoding="async"></figure>
                 </li>
                 <li class="flex__item roll" data-grid="sp4" data-type="slideUpIn">
                   <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                      src="@/assets/img/img-tachineputa11@2x.webp"
-                      srcset="@/assets/img/img-tachineputa11@2x.webp, @/assets/img/img-tachineputa11@2x.webp 2x" alt=""
+                      src="@/static/img/img-tachineputa11@2x.webp"
+                      srcset="@/static/img/img-tachineputa11@2x.webp, @/static/img/img-tachineputa11@2x.webp 2x" alt=""
                       decoding="async"></figure>
                 </li>
                 <li class="flex__item roll" data-grid="sp4" data-type="slideUpIn">
                   <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                      src="@/assets/img/img-tachineputa12@2x.webp"
-                      srcset="@/assets/img/img-tachineputa12@2x.webp, @/assets/img/img-tachineputa12@2x.webp 2x" alt=""
+                      src="@/static/img/img-tachineputa12@2x.webp"
+                      srcset="@/static/img/img-tachineputa12@2x.webp, @/static/img/img-tachineputa12@2x.webp 2x" alt=""
                       decoding="async"></figure>
                 </li>
                 <li class="flex__item roll" data-grid="sp4" data-type="slideUpIn">
                   <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                      src="@/assets/img/img-tachineputa13@2x.webp"
-                      srcset="@/assets/img/img-tachineputa13@2x.webp, @/assets/img/img-tachineputa13@2x.webp 2x" alt=""
+                      src="@/static/img/img-tachineputa13@2x.webp"
+                      srcset="@/static/img/img-tachineputa13@2x.webp, @/static/img/img-tachineputa13@2x.webp 2x" alt=""
                       decoding="async"></figure>
                 </li>
               </ul>
@@ -402,80 +404,80 @@
                   <ul class="flex" data-gutter="normal">
                     <li class="flex__item roll" data-grid="sp6" data-type="slideUpIn">
                       <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                          src="@/assets/img/img-tachineputa14@2x.webp"
-                          srcset="@/assets/img/img-tachineputa14@2x.webp, @/assets/img/img-tachineputa14@2x.webp 2x"
+                          src="@/static/img/img-tachineputa14@2x.webp"
+                          srcset="@/static/img/img-tachineputa14@2x.webp, @/static/img/img-tachineputa14@2x.webp 2x"
                           alt="" decoding="async"></figure>
                     </li>
                     <li class="flex__item roll" data-grid="sp6" data-type="slideUpIn">
                       <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                          src="@/assets/img/img-tachineputa15@2x.webp"
-                          srcset="@/assets/img/img-tachineputa15@2x.webp, @/assets/img/img-tachineputa15@2x.webp 2x"
+                          src="@/static/img/img-tachineputa15@2x.webp"
+                          srcset="@/static/img/img-tachineputa15@2x.webp, @/static/img/img-tachineputa15@2x.webp 2x"
                           alt="" decoding="async"></figure>
                     </li>
                     <li class="flex__item roll" data-grid="sp6 tab3" data-type="slideUpIn">
                       <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                          src="@/assets/img/img-tachineputa16@2x.webp"
-                          srcset="@/assets/img/img-tachineputa16@2x.webp, @/assets/img/img-tachineputa16@2x.webp 2x"
+                          src="@/static/img/img-tachineputa16@2x.webp"
+                          srcset="@/static/img/img-tachineputa16@2x.webp, @/static/img/img-tachineputa16@2x.webp 2x"
                           alt="" decoding="async"></figure>
                     </li>
                     <li class="flex__item roll" data-grid="sp6 tab3" data-type="slideUpIn">
                       <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                          src="@/assets/img/img-tachineputa17@2x.webp"
-                          srcset="@/assets/img/img-tachineputa17@2x.webp, @/assets/img/img-tachineputa17@2x.webp 2x"
+                          src="@/static/img/img-tachineputa17@2x.webp"
+                          srcset="@/static/img/img-tachineputa17@2x.webp, @/static/img/img-tachineputa17@2x.webp 2x"
                           alt="" decoding="async"></figure>
                     </li>
                     <li class="flex__item roll" data-grid="sp6 tab3" data-type="slideUpIn">
                       <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                          src="@/assets/img/img-tachineputa18@2x.webp"
-                          srcset="@/assets/img/img-tachineputa18@2x.webp, @/assets/img/img-tachineputa18@2x.webp 2x"
+                          src="@/static/img/img-tachineputa18@2x.webp"
+                          srcset="@/static/img/img-tachineputa18@2x.webp, @/static/img/img-tachineputa18@2x.webp 2x"
                           alt="" decoding="async"></figure>
                     </li>
                     <li class="flex__item roll" data-grid="sp6 tab3" data-type="slideUpIn">
                       <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                          src="@/assets/img/img-tachineputa19@2x.webp"
-                          srcset="@/assets/img/img-tachineputa19@2x.webp, @/assets/img/img-tachineputa19@2x.webp 2x"
+                          src="@/static/img/img-tachineputa19@2x.webp"
+                          srcset="@/static/img/img-tachineputa19@2x.webp, @/static/img/img-tachineputa19@2x.webp 2x"
                           alt="" decoding="async"></figure>
                     </li>
                     <li class="flex__item roll" data-grid="sp12 tab8" data-type="slideUpIn">
                       <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                          src="@/assets/img/img-tachineputa20@2x.webp"
-                          srcset="@/assets/img/img-tachineputa20@2x.webp, @/assets/img/img-tachineputa20@2x.webp 2x"
+                          src="@/static/img/img-tachineputa20@2x.webp"
+                          srcset="@/static/img/img-tachineputa20@2x.webp, @/static/img/img-tachineputa20@2x.webp 2x"
                           alt="" decoding="async"></figure>
                     </li>
                     <li class="flex__item roll" data-grid="sp6 tab4" data-type="slideUpIn">
                       <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                          src="@/assets/img/img-tachineputa21@2x.webp"
-                          srcset="@/assets/img/img-tachineputa21@2x.webp, @/assets/img/img-tachineputa21@2x.webp 2x"
+                          src="@/static/img/img-tachineputa21@2x.webp"
+                          srcset="@/static/img/img-tachineputa21@2x.webp, @/static/img/img-tachineputa21@2x.webp 2x"
                           alt="" decoding="async"></figure>
                     </li>
                     <li class="flex__item roll" data-grid="sp6 tab4" data-type="slideUpIn">
                       <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                          src="@/assets/img/img-tachineputa22@2x.webp"
-                          srcset="@/assets/img/img-tachineputa22@2x.webp, @/assets/img/img-tachineputa22@2x.webp 2x"
+                          src="@/static/img/img-tachineputa22@2x.webp"
+                          srcset="@/static/img/img-tachineputa22@2x.webp, @/static/img/img-tachineputa22@2x.webp 2x"
                           alt="" decoding="async"></figure>
                     </li>
                     <li class="flex__item roll" data-grid="sp12 tab8" data-type="slideUpIn">
                       <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                          src="@/assets/img/img-tachineputa23@2x.webp"
-                          srcset="@/assets/img/img-tachineputa23@2x.webp, @/assets/img/img-tachineputa23@2x.webp 2x"
+                          src="@/static/img/img-tachineputa23@2x.webp"
+                          srcset="@/static/img/img-tachineputa23@2x.webp, @/static/img/img-tachineputa23@2x.webp 2x"
                           alt="" decoding="async"></figure>
                     </li>
                     <li class="flex__item roll" data-grid="sp4" data-type="slideUpIn">
                       <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                          src="@/assets/img/img-tachineputa24@2x.webp"
-                          srcset="@/assets/img/img-tachineputa24@2x.webp, @/assets/img/img-tachineputa24@2x.webp 2x"
+                          src="@/static/img/img-tachineputa24@2x.webp"
+                          srcset="@/static/img/img-tachineputa24@2x.webp, @/static/img/img-tachineputa24@2x.webp 2x"
                           alt="" decoding="async"></figure>
                     </li>
                     <li class="flex__item roll" data-grid="sp4" data-type="slideUpIn">
                       <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                          src="@/assets/img/img-tachineputa25@2x.webp"
-                          srcset="@/assets/img/img-tachineputa25@2x.webp, @/assets/img/img-tachineputa25@2x.webp 2x"
+                          src="@/static/img/img-tachineputa25@2x.webp"
+                          srcset="@/static/img/img-tachineputa25@2x.webp, @/static/img/img-tachineputa25@2x.webp 2x"
                           alt="" decoding="async"></figure>
                     </li>
                     <li class="flex__item roll" data-grid="sp4" data-type="slideUpIn">
                       <figure class="c-card p-gallery"><img class="c-card__image p-gallery__image"
-                          src="@/assets/img/img-tachineputa26@2x.webp"
-                          srcset="@/assets/img/img-tachineputa26@2x.webp, @/assets/img/img-tachineputa26@2x.webp 2x"
+                          src="@/static/img/img-tachineputa26@2x.webp"
+                          srcset="@/static/img/img-tachineputa26@2x.webp, @/static/img/img-tachineputa26@2x.webp 2x"
                           alt="" decoding="async"></figure>
                     </li>
                   </ul>
@@ -487,7 +489,7 @@
       </div>
     </section>
     <section class="-primary -bg-primary bg-gradient p-relative" id="live"><img class="animate-right top-0 w-20"
-        src="@/assets/img/cloud-right.png" alt="">
+        src="@/static/img/cloud-right.png" alt="">
       <div class="l-container l-spacer -primary">
         <h2 class="c-heading -secondary -center roll text-white" lang="en" data-type="standUpIn" data-duration="fast">
           <span>2021年&nbsp;立佞武多&nbsp;秋の陣</span>
@@ -499,7 +501,7 @@
           </div>
         </div>
       </div>
-      <img class="animate-left bottom-0 w-20" src="@/assets/img/cloud-left.png" alt="">
+      <img class="animate-left bottom-0 w-20" src="@/static/img/cloud-left.png" alt="">
     </section>
   </div>
 </template>

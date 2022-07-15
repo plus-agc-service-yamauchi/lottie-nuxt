@@ -20,18 +20,18 @@
                         <ul class="flex">
                             <li class="flex__item" data-grid="sp4"><span class="p-hero__imageWrap"><span
                                         class="p-hero__color" data-id="1"><img class="p-hero__image"
-                                            src="@/assets/img/img-privacy-hero-left.jpg"
-                                            srcset="@/assets/img/img-privacy-hero-left.jpg, @/assets/img/img-privacy-hero-left@2x.jpg 2x"
+                                            src="@/static/img/img-privacy-hero-left.jpg"
+                                            srcset="@/static/img/img-privacy-hero-left.jpg, @/static/img/img-privacy-hero-left@2x.jpg 2x"
                                             alt="" decoding="async"></span></span></li>
                             <li class="flex__item" data-grid="sp4"><span class="p-hero__imageWrap"><span
                                         class="p-hero__color" data-id="2"><img class="p-hero__image"
-                                            src="@/assets/img/img-privacy-hero-center.jpg"
-                                            srcset="@/assets/img/img-privacy-hero-center.jpg, @/assets/img/img-privacy-hero-center@2x.jpg 2x"
+                                            src="@/static/img/img-privacy-hero-center.jpg"
+                                            srcset="@/static/img/img-privacy-hero-center.jpg, @/static/img/img-privacy-hero-center@2x.jpg 2x"
                                             alt="" decoding="async"></span></span></li>
                             <li class="flex__item" data-grid="sp4"><span class="p-hero__imageWrap"><span
                                         class="p-hero__color" data-id="3"><img class="p-hero__image"
-                                            src="@/assets/img/img-privacy-hero-right.jpg"
-                                            srcset="@/assets/img/img-privacy-hero-right.jpg, @/assets/img/img-privacy-hero-right@2x.jpg 2x"
+                                            src="@/static/img/img-privacy-hero-right.jpg"
+                                            srcset="@/static/img/img-privacy-hero-right.jpg, @/static/img/img-privacy-hero-right@2x.jpg 2x"
                                             alt="" decoding="async"></span></span></li>
                         </ul>
                     </figure>
@@ -181,7 +181,7 @@
             </div>
         </section>
         <section class="-primary -bg-primary bg-gradient p-relative" id="live"><img class="animate-right top-0 w-20"
-                src="@/assets/img/cloud-right.png" alt="">
+                src="@/static/img/cloud-right.png" alt="">
             <div class="l-container l-spacer -primary">
                 <h2 class="c-heading -secondary -center roll text-white" lang="en" data-type="standUpIn"
                     data-duration="fast">
@@ -195,7 +195,7 @@
                     </div>
                 </div>
             </div>
-            <img class="animate-left bottom-0 w-20" src="@/assets/img/cloud-left.png" alt="">
+            <img class="animate-left bottom-0 w-20" src="@/static/img/cloud-left.png" alt="">
         </section>
     </div>
 </template>

@@ -1,3 +1,10 @@
+import path from 'path'
+import glob from 'glob'
+
+let files = glob.sync('**/*.md', { cwd: 'blog' })
+files = files.map(d => '/posts/' + d.substr(0, d.lastIndexOf('.')))
+
+
 export default {
   /*
    ** Rendering mode
@@ -51,6 +58,10 @@ export default {
   modules: [
     // Doc: https://http.nuxtjs.org
     "@nuxt/http",
+    ['@nuxtjs/google-gtag', {
+      id: 'G-QYE37XDR29',
+      debug: true,
+    }]
   ],
 
   /*
@@ -66,8 +77,15 @@ export default {
    */
   build: {
     /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) {},
+         ** You can extend webpack config here
+         */
+         extend(config, ctx) {
+          config.module.rules.push({
+              test: /\.md$/,
+              include: path.resolve(__dirname, "blog"),
+              loader: 'frontmatter-markdown-loader',
+          })
+      },
   },
+
 };
